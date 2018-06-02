@@ -91,8 +91,8 @@ class TemplatesManager
      */
     public static function templateModified(Template $template)
     {
-        $_file = $this->getPath($template->slug);
-
+        //$_file = $this->getPath($template->slug);
+        $_file = resource_path('views/vendor/voyager/templates/').$template->slug.'.blade.php';
         if (File::exists($_file)) {
             File::delete($_file);
         }
