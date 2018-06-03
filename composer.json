@@ -1,5 +1,5 @@
 {
-    "name": "d3turnes/bread-templates",
+    "name": "launcher/bread-templates",
     "description": "Templating BREAD Views",
     "keywords": ["laravel", "launcher", "voyager", "blade", "views", "templates", "hooks"],
     "license": "MIT",
